@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pony.equallinearlayout.MainActivity">
+
+    <com.example.pony.equallinearlayout.EqualLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ellLineMargin="20dp"
+        app:ellSpanCount="3"
+        app:ellSpanMargin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:text="Hello"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:text="Hello"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:text="Hello"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:text="Hello"/>
+
+    </com.example.pony.equallinearlayout.EqualLinearLayout>
+
+</LinearLayout>
